@@ -8,14 +8,15 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: jasim92
-blog_url: https://www.nagekar.com
 email: jasim.chouhan@yahoo.com
 keybase_username: jasim
 twitter_username: jasim92
 reddit_username: ristedaar
+stackverflow_username: users/13718810/jasim-chouhan
 
 # absolute or relative
 profile_picture: assets/images/jasim.jpg
+cv: assets/cv/cv.pdf
 
 # Google Analytics ID
 google_analytics: 
