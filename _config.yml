@@ -1,21 +1,21 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Jasim Chouhan
+description: Mobile Application & backend Developer
+site_title: '@jasim - Jasim Chouhan'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
+github_username: jasim92
 blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+email: jasim.chouhan@yahoo.com
+keybase_username: jasim
+twitter_username: jasim92
+reddit_username: ristedaar
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/jasim.jpg
 
 # Google Analytics ID
 google_analytics: 
