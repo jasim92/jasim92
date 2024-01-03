@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/jasim92/Quotation-Managment-System',
             title: 'Quotation Management System',
             demo: false,
-            technologies: ['JavaScript', 'bootstrape', 'HTML', 'CSS', 'Strapi(Backend)'],
+            technologies: ['JavaScript', 'bootstrape','Strapi'],
             description: "Designed and implemented a Quotation Management System to streamline the creation, updating, deletion, and retrieval of quotations. The system is a comprehensive solution for managing quotes efficiently.",
             categories: ['featured', 'webdev']
         },
@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/jasim92/FIRE-PROJECT',
             title: 'FireFace Guardian',
             demo: false,
-            technologies: ['JavaScript', 'bootstrape', 'HTML', 'CSS', 'Megvii Face APIs'],
+            technologies: ['JavaScript', 'bootstrape','Megvii APIs'],
             description: "FireFace Guardian is a web application designed for capturing human faces and counting the total number of humans detected, along with detailed facial information. The application leverages Megvii Facial APIs for seamless integration, providing robust facial recognition capabilities.",
             categories: ['webdev', 'featured']
         },
@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/jasim92/TMDB-Web',
             title: 'Movie Mania',
             demo: false,
-            technologies: ['JavaScript', 'bootstrape', 'HTML', 'CSS', 'TMDB Movie APIs'],
+            technologies: ['JavaScript', 'bootstrape','TMDB API'],
             description: "Movie Mania is a web application that provides comprehensive information about movies. Leveraging TMDB movie APIs, the app allows users to explore details about movies, search for movies based on genres, and access a vast database of cinematic information.",
             categories: ['webdev', 'featured']
         },
@@ -43,7 +43,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/jasim92/Weathery-Web',
             title: 'Wheathery',
             demo: false,
-            technologies: ['JavaScript', 'bootstrape', 'HTML', 'CSS', 'Weather APIs'],
+            technologies: ['JavaScript', 'bootstrape','Weather API'],
             description: "Wheathery app leverages Weather APIs to fetch real-time weather data, allowing users to search for and stay updated on the latest weather conditions in different locations.",
             categories: ['webdev', 'featured']
         },
