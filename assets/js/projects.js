@@ -54,7 +54,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Java', 'Strapi','Robotic'],
             description: "Pepper Retail, an Android app for Pepper Robot by SoftBank, guides supermarket customers with product details, categories, and discounts. It utilizes Pepper SDK, enabling search, barcode scanning, and Strapi CMS APIs for content management.",
-            categories: ['Android', 'Robotic', 'featured']
+            categories: ['android', 'robotic', 'featured']
         },
         {
             image: 'assets/images/pepper_hotel_main.jpg',
@@ -63,7 +63,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Java', 'Strapi','Robotic'],
             description: "Pepper Hotel, an Android app for Pepper Robot by SoftBank, guides Dubai hotel visitors with details on services, local attractions, and bookings for taxi and laundry. It seamlessly integrates with Pepper using Pepper SDK and Strapi CMS APIs.",
-            categories: ['Android', 'Robotic', 'featured']
+            categories: ['android', 'robotic', 'featured']
         },
         {
             image: 'assets/images/pepper_airport_main.jpg',
@@ -72,7 +72,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Java', 'Strapi','Robotic'],
             description: "Pepper Airport, an Android app for Pepper Robot by SoftBank, offers flyers detailed flight information and integrates with Strapi CMS APIs. Passengers can access details via voice commands and scan boarding passes for gate information.",
-            categories: ['Android', 'Robotic', 'featured']
+            categories: ['android', 'robotic', 'featured']
         },
         
     ]
