@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             title: 'FireFace Guardian',
             demo: false,
             technologies: ['JavaScript', 'bootstrape','Megvii APIs'],
-            description: "FireFace Guardian is a web application designed for capturing human faces and counting the total number of humans detected, along with detailed facial information. The application leverages Megvii Facial APIs for seamless integration, providing robust facial recognition capabilities.",
+            description: "FireFace Guardian, a web app, captures and counts human faces, utilizing Megvii Facial APIs for powerful facial recognition. It offers detailed facial information, ensuring seamless integration and robust capabilities.",
             categories: ['webdev', 'featured']
         },
         {
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             title: 'Movie Mania',
             demo: false,
             technologies: ['JavaScript', 'bootstrape','TMDB API'],
-            description: "Movie Mania is a web application that provides comprehensive information about movies. Leveraging TMDB movie APIs, the app allows users to explore details about movies, search for movies based on genres, and access a vast database of cinematic information.",
+            description: "Movie Mania, a web app, uses TMDB movie APIs to offer in-depth movie details. Users can explore genres, search movies, and access a vast cinematic database for comprehensive film information.",
             categories: ['webdev', 'featured']
         },
         {
@@ -44,8 +44,35 @@ let render_projects = (slug) => {
             title: 'Wheathery',
             demo: false,
             technologies: ['JavaScript', 'bootstrape','Weather API'],
-            description: "Wheathery app leverages Weather APIs to fetch real-time weather data, allowing users to search for and stay updated on the latest weather conditions in different locations.",
+            description: "Wheathery app uses Weather APIs for real-time weather updates. Users can search and stay informed on the latest weather conditions in different locations, enhancing their overall weather-tracking experience.",
             categories: ['webdev', 'featured']
+        },
+        {
+            image: 'assets/images/pepper_retail_nav.jpg',
+            link: 'https://github.com/yasseraiomoh/pepper-frontend',
+            title: 'Pepper Retail',
+            demo: false,
+            technologies: ['Java', 'Strapi','Robotic'],
+            description: "Pepper Retail, an Android app for Pepper Robot by SoftBank, guides supermarket customers with product details, categories, and discounts. It utilizes Pepper SDK, enabling search, barcode scanning, and Strapi CMS APIs for content management.",
+            categories: ['Android', 'Robotic', 'featured']
+        },
+        {
+            image: 'assets/images/pepper_hotel_main.jpg',
+            link: 'https://github.com/jasim92/Pepper_Hotel',
+            title: 'Pepper Hotel',
+            demo: false,
+            technologies: ['Java', 'Strapi','Robotic'],
+            description: "Pepper Hotel, an Android app for Pepper Robot by SoftBank, guides Dubai hotel visitors with details on services, local attractions, and bookings for taxi and laundry. It seamlessly integrates with Pepper using Pepper SDK and Strapi CMS APIs.",
+            categories: ['Android', 'Robotic', 'featured']
+        },
+        {
+            image: 'assets/images/pepper_airport_main.jpg',
+            link: 'https://github.com/jasim92/pepper-airport',
+            title: 'Pepper Airport',
+            demo: false,
+            technologies: ['Java', 'Strapi','Robotic'],
+            description: "Pepper Airport, an Android app for Pepper Robot by SoftBank, offers flyers detailed flight information and integrates with Strapi CMS APIs. Passengers can access details via voice commands and scan boarding passes for gate information.",
+            categories: ['Android', 'Robotic', 'featured']
         },
         
     ]
