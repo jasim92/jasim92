@@ -11,6 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/restaurant_screen_3.jpg',
+            link: 'https://github.com/jasim92/Food-Airport',
+            title: 'Food Airport',
+            demo: false,
+            technologies: ['Android', 'Robotic','REST API'],
+            description: "Food Airport, an innovative Android app, revolutionizes food ordering with robot delivery at airport boarding gates. Developed in Java, it integrates Strapi CMS for backend and uses Keenon robot APIs for efficient communication.",
+            categories: ['featured', 'android', 'robotic','mobile']
+        },
+        {
             image: 'assets/images/quotation.png',
             link: 'https://github.com/jasim92/Quotation-Managment-System',
             title: 'Quotation Management System',
@@ -36,7 +45,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['JavaScript', 'bootstrape','TMDB API'],
             description: "Movie Mania, a web app, uses TMDB movie APIs to offer in-depth movie details. Users can explore genres, search movies, and access a vast cinematic database for comprehensive film information.",
-            categories: ['webdev', 'featured']
+            categories: ['webdev']
         },
         {
             image: 'assets/images/weathry.png',
@@ -45,7 +54,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['JavaScript', 'bootstrape','Weather API'],
             description: "Wheathery app uses Weather APIs for real-time weather updates. Users can search and stay informed on the latest weather conditions in different locations, enhancing their overall weather-tracking experience.",
-            categories: ['webdev', 'featured']
+            categories: ['webdev']
         },
         {
             image: 'assets/images/pepper_retail_nav.jpg',
