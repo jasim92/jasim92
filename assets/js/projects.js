@@ -102,6 +102,15 @@ let render_projects = (slug) => {
             description: "Pepper Airport, an Android app for Pepper Robot by SoftBank, offers flyers detailed flight information and integrates with Strapi CMS APIs. Passengers can access details via voice commands and scan boarding passes for gate information.",
             categories: ['android', 'robotic', 'featured']
         },
+        {
+            image: 'assets/images/visitor_2.jpg',
+            link: 'https://github.com/jasim92/MegviiVisitor',
+            title: 'Visitor',
+            demo: false,
+            technologies: ['Android',"Java", 'Facial'],
+            description: "Visitor, a robust mobile app developed in Java, is a comprehensive Visitor Management solution. It allows users to seamlessly manage visitor information, utilizing Megvii face APIs for facial recognition at security gates.",
+            categories: ['featured', 'android','mobile']
+        },
         
     ]
 
