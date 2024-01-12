@@ -15,9 +15,27 @@ let render_projects = (slug) => {
             link: 'https://github.com/jasim92/Food-Airport',
             title: 'Food Airport',
             demo: false,
-            technologies: ['Android', 'Robotic','REST API'],
+            technologies: ['Android', 'Robotic','RestApi'],
             description: "Food Airport, an innovative Android app, revolutionizes food ordering with robot delivery at airport boarding gates. Developed in Java, it integrates Strapi CMS for backend and uses Keenon robot APIs for efficient communication.",
             categories: ['featured', 'android', 'robotic','mobile']
+        },
+        {
+            image: 'assets/images/countries_2.jpg',
+            link: 'https://github.com/jasim92/countries-kotlin',
+            title: 'Countries',
+            demo: false,
+            technologies: ['Android',"Kotlin",'RestApi'],
+            description: "Countries, an Android app built with Kotlin and MVVM architecture, offers comprehensive demographic details such as capital, population, currency, continent, and flag. It integrates with the 'countries' API for extensive country information.",
+            categories: ['featured', 'android','mobile']
+        },
+        {
+            image: 'assets/images/notes_2.jpg',
+            link: 'https://github.com/jasim92/NotesApp',
+            title: 'NotesApp',
+            demo: false,
+            technologies: ['Android',"Java",'room'],
+            description: "NotesApp, a Java-based Android application following MVVM architecture, is a feature-rich note-keeping solution. Users can organize and manage meeting notes, grocery lists, etc., with priority levels and swipe gestures for deletion.",
+            categories: ['featured', 'android','mobile']
         },
         {
             image: 'assets/images/quotation.png',
@@ -38,6 +56,7 @@ let render_projects = (slug) => {
             description: "FireFace Guardian, a web app, captures and counts human faces, utilizing Megvii Facial APIs for powerful facial recognition. It offers detailed facial information, ensuring seamless integration and robust capabilities.",
             categories: ['webdev', 'featured']
         },
+        
         {
             image: 'assets/images/tmdb.png',
             link: 'https://github.com/jasim92/TMDB-Web',
